@@ -1,3 +1,5 @@
+# Revision 4: Client handles upload and download operations
+
 import metadata_server as ms
 import storage_node as sn
 import os
@@ -59,3 +61,4 @@ while True:
 
     else:
         print("Invalid choice")
+
