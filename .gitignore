@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+downloaded_*.txt
+node1/
+node2/
+node3/
