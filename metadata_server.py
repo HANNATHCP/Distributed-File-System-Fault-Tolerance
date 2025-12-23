@@ -1,3 +1,4 @@
+# Revision 3: Added clear description for metadata server responsibilities
 import random
 from common import TOTAL_NODES, REPLICA_COUNT
 
@@ -23,4 +24,5 @@ def fail_node(node):
     node_status[node] = False
 
 init_nodes()
+
 
