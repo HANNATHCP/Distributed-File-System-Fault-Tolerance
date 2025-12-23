@@ -1,3 +1,5 @@
+# Revision 3: Added clear description for metadata server responsibilities
+
 import random
 from common import TOTAL_NODES, REPLICA_COUNT
 
