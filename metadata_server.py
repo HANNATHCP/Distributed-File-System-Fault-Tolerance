@@ -14,6 +14,9 @@ def add_file(filename):
     chosen_nodes = random.sample(alive_nodes, REPLICA_COUNT)
     file_table[filename] = chosen_nodes
     return chosen_nodes
+    
+# Revision 5: Added fault tolerance using node failure simulation
+
 def get_file_nodes(filename):
     return file_table.get(filename, [])
 
@@ -24,5 +27,6 @@ def fail_node(node):
     node_status[node] = False
 
 init_nodes()
+
 
 
